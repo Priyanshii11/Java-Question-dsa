@@ -5,8 +5,6 @@ public class MinMaxSum {
         int min, max;
         max = Arr[0];
         min = Arr[0];
-
-
             for (int i = 0  ; i < Arr.length ; i++) {
                 if (Arr[i] < min)
                     {

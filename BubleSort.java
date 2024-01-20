@@ -22,7 +22,8 @@ public class BubleSort {
                 arr[j + 1] = temp; 
             } 
         }
-    }System.out.println(Arrays.toString(arr));     
+    }
+    System.out.println(Arrays.toString(arr));     
 }
 }
      

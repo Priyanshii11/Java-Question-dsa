@@ -21,10 +21,7 @@ public class RotateArray {
             Arr[i] = temp[i];
             System.out.print(Arr[i]+" ");
 
-        }
-
-       
-        
+        }  
     }
        
     } 

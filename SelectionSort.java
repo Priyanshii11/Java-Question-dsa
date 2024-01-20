@@ -24,7 +24,7 @@ public class SelectionSort {
         arr[i] = temp;
         System.out.print(arr[i]);
     }  
-    }   
+ }   
 }
     
 
