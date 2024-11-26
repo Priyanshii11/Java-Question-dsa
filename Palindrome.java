@@ -1,9 +1,11 @@
-public class Palindrome {
+import java.util.Scanner;
 
+public class Palindrome {
     public static void main(String args[]){  
-        int r,sum=0,temp;    
-        int n=454    ;//It is the number variable to be checked for palindrome  
-        
+        int r,sum=0,temp;  
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int n=sc.nextInt();    //It is the number variable to be checked for palindrome  
         temp=n;    
         while(n>0){    
          r=n%10;  //getting remainder  
@@ -12,7 +14,11 @@ public class Palindrome {
         }    
         if(temp==sum)    
          System.out.println("palindrome number ");    
-        else    
-         System.out.println("not palindrome");    
+        else  
+         System.out.println("not palindrome"); 
+        
       }  
+    
+
 }
+ 
